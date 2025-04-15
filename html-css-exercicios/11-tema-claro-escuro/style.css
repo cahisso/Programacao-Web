@@ -1,0 +1,22 @@
+:root {
+    --bg: white;
+    --text: black;
+  }
+  
+  body.claro {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  
+  body.escuro {
+    --bg: #121212;
+    --text: #f5f5f5;
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+  }
+  

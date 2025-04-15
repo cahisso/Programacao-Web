@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .coluna {
+    flex: 1;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }  

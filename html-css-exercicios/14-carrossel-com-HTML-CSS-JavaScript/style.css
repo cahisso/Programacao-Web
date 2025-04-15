@@ -1,0 +1,30 @@
+.carrossel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.carrossel {
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.carrossel img {
+  width: 300px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
