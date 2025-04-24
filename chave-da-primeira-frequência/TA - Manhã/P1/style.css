@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+input, button {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+input {
+  width: 350px;
+}
+
+a {
+  float: right;
+}
+
+
+fieldset {
+  width: 350px;
+}
+
+a.botao-bonito {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4f46e5; /* Roxo bonito */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a.botao-bonito:hover {
+  background-color: #4338ca; /* Um tom mais escuro no hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
